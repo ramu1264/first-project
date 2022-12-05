@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Play with colors</title>
+</head>
+<style>
+    body{
+        background-color: gray;
+    }
+</style>
+<body>
+    <h1 id='myH'>play with colors - Project 1</h1>
+    <div>
+        <button onclick='makeRed()'>Red</button>
+        <button onclick="makeYellow()">Yellow</button> 
+        <button onclick="makeGreen()">Green</button> 
+        <button onclick="makeBlue()">Blue</button>  
+        <button onclick="makeBlack()">Black</button>
+    </div>
+    <script>
+        function makeRed(){
+            document.body.style.backgroundColor='red';
+        }
+        function makeYellow(){
+            document.body.style.backgroundColor='yellow';
+        }
+        function makeGreen(){
+            document.body.style.backgroundColor='green';
+        }
+        function makeBlue(){
+            document.body.style.backgroundColor='blue';
+        }
+        function makeBlack(){
+            document.body.style.backgroundColor='black';
+            document.getElementById('myH').style.color='white';
+        }
+    </script>
+</body>
+
+</html>
